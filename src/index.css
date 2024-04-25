@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ul{
+    list-style-type: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    
+}
+
+
+.toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .checkbox {
+    display: none;
+  }
+  
+  .label {
+    @apply bg-slate-300;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 0 20px;
+    width: 50px;
+    height: 23px;
+    cursor: pointer;
+  }
+  
+  .ball {
+    background: #ffffff;
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    transition: transform 0.15s linear;
+  }
+  
+  .checkbox:checked + .label .ball {
+    transform: translateX(24px);
+  }
+  
+  .checkbox:checked + .label {
+    background: linear-gradient(90deg, rgb(55, 143, 230), rgb(62, 218, 130));
+  }
+  
+  .instagram {
+    background: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  }
