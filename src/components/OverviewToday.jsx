@@ -12,58 +12,9 @@ import ArticaleOverview from './Resuable/ArticaleOverview'
 function OverviewToday() {
   return (
     <>
-        <h2 className='text-slate-600 font-bold text-2xl md:text-2xl lg:text-3xl mb-5'>Overview Today</h2>
+        <h2 className='text-slate-600 dark:text-slate-200 font-bold text-2xl md:text-2xl lg:text-3xl mb-5'>Overview - Today</h2>
         <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
-            {/* <article className='bg-slate-200 p-5 rounded shadow shadow-slate-50'>
-                <ul className='flex justify-between items-center'>
-                    <li className='text-slate-600 font-bold text-sm mb-2'>Page Views</li>
-                    <li><img src={facebook} alt="facebook" /></li>
-                </ul>
-                <ul className='flex justify-between items-baseline'>
-                    <li className='text-4xl font-bold text-slate-800'>87</li>
-                    <li className='flex justify-center items-center text-emerald-600 font-semibold text-sm'><img src={up}  className="mr-1 w-3" alt="up" />3%</li>
-                </ul>
-            </article>
-            <article className='bg-slate-200 p-5 rounded shadow shadow-slate-50'>
-                <ul className='flex justify-between items-center mb-2'>
-                    <li className='text-slate-600 font-bold text-sm'>Likes</li>
-                    <li><img src={facebook} alt="facebook" /></li>
-                </ul>
-                <ul className='flex justify-between items-baseline '>
-                    <li className='text-4xl font-bold text-slate-800'>87</li>
-                    <li className='flex justify-center items-center text-rose-600 font-semibold text-sm'><img src={down}  className="mr-1 w-3" alt="up" />2%</li>
-                </ul>
-            </article>
-            <article className='bg-slate-200 p-5 rounded shadow shadow-slate-50'>
-                <ul className='flex justify-between items-center mb-2'>
-                    <li className='text-slate-600 font-bold text-sm'>Likes</li>
-                    <li><img src={instagram} alt="facebook" /></li>
-                </ul>
-                <ul className='flex justify-between items-baseline '>
-                    <li className='text-4xl font-bold text-slate-800'>5468</li>
-                    <li className='flex justify-center items-center text-emerald-600 font-semibold text-sm'><img src={up}  className="mr-1 w-3" alt="up" />2257%</li>
-                </ul>
-            </article>
-            <article className='bg-slate-200 p-5 rounded shadow shadow-slate-50'>
-                <ul className='flex justify-between items-center mb-2'>
-                    <li className='text-slate-600 font-bold text-sm'>Profile Views</li>
-                    <li><img src={instagram} alt="facebook" /></li>
-                </ul>
-                <ul className='flex justify-between items-baseline '>
-                    <li className='text-4xl font-bold text-slate-800'>52k</li>
-                    <li className='flex justify-center items-center text-emerald-600 font-semibold text-sm'><img src={up}  className="mr-1 w-3" alt="up" />1375%</li>
-                </ul>
-            </article>
-            <article className='bg-slate-200 p-5 rounded shadow shadow-slate-50'>
-                <ul className='flex justify-between items-center mb-2'>
-                    <li className='text-slate-600 font-bold text-sm'>Profile Views</li>
-                    <li><img src={instagram} alt="facebook" /></li>
-                </ul>
-                <ul className='flex justify-between items-baseline '>
-                    <li className='text-4xl font-bold text-slate-800'>52k</li>
-                    <li className='flex justify-center items-center text-emerald-600 font-semibold text-sm'><img src={up}  className="mr-1 w-3" alt="up" />1375%</li>
-                </ul>
-            </article> */}
+
             {/* stats, icon ,cardName, arrow ,percentage */}
             <ArticaleOverview
                 cardName={"Page Views"}
